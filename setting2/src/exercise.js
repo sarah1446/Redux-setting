@@ -71,7 +71,7 @@ const listner = () => {
 }
 
 const unsubscribe = store.subscribe(listner);
-// ubsubscribe(); // 구독해제할 때 호출하면 됨 
+// unsubscribe(); // 구독해제할 때 호출하면 됨 
 
 store.dispatch(increase());
 store.dispatch(decrease());
