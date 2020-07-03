@@ -1,5 +1,5 @@
 const ADD_TODO = 'todos/ADD_TODO';
-const TOGGLE_TODO = 'todos/TOGGLE+TODO';
+const TOGGLE_TODO = 'todos/TOGGLE_TODO';
 
 let nextId = 1;
 
